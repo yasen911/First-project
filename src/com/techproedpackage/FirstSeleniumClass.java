@@ -9,5 +9,6 @@ public class FirstSeleniumClass {
        System.setProperty("webdriver.chrome.driver","/Users/yasenarslan/Documents/Selenium Libraries/Drivers/chromedriver/");
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
+        System.out.println("al");
     }
 }
